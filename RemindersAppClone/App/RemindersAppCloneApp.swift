@@ -13,7 +13,7 @@ struct RemindersAppCloneApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .modelContainer(for: [Mylist.self, Reminder.self], inMemory: true)
+                .modelContainer(for: [Mylist.self, Reminder.self], inMemory: false)
         }
     }
 }

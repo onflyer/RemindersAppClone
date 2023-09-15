@@ -39,13 +39,12 @@ struct ContentView: View {
                                 Divider()
                             }
                         }
-
                     }
                     .scrollContentBackground(.hidden)
                         .navigationDestination(for: Mylist.self) { list in
-                            Text(list.name)
-                               
-                        }
+                            AddNewReminderScreen(list: list)
+                                .navigationTitle(list.name)
+                    }
                 }
                 Spacer()
                 Button(action: {
