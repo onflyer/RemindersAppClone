@@ -13,6 +13,7 @@
 		3B37F7412AB3BA8200763D65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B37F7402AB3BA8200763D65 /* Preview Assets.xcassets */; };
 		3B37F74E2AB3BB2600763D65 /* Mylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F74D2AB3BB2600763D65 /* Mylist.swift */; };
 		3B37F7502AB3BBD700763D65 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F74F2AB3BBD700763D65 /* Reminder.swift */; };
+		3B37F7522AB3DADC00763D65 /* AddNewListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F7512AB3DADC00763D65 /* AddNewListScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3B37F7402AB3BA8200763D65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B37F74D2AB3BB2600763D65 /* Mylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mylist.swift; sourceTree = "<group>"; };
 		3B37F74F2AB3BBD700763D65 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		3B37F7512AB3DADC00763D65 /* AddNewListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				3B37F73B2AB3BA8100763D65 /* ContentView.swift */,
+				3B37F7512AB3DADC00763D65 /* AddNewListScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			files = (
 				3B37F73C2AB3BA8100763D65 /* ContentView.swift in Sources */,
 				3B37F73A2AB3BA8100763D65 /* RemindersAppCloneApp.swift in Sources */,
+				3B37F7522AB3DADC00763D65 /* AddNewListScreen.swift in Sources */,
 				3B37F74E2AB3BB2600763D65 /* Mylist.swift in Sources */,
 				3B37F7502AB3BBD700763D65 /* Reminder.swift in Sources */,
 			);
