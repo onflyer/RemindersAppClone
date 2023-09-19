@@ -24,7 +24,7 @@ struct AddNewReminderScreen: View {
             /// SHOWING REMINDERS
             List {
                 ForEach(list.reminders) { reminder in
-                    Text(reminder.title)
+                    ReminderCellView(reminder: reminder)
                 }
             }
             HStack {
