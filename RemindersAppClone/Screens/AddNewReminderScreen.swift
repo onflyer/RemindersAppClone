@@ -13,6 +13,12 @@ struct AddNewReminderScreen: View {
 //    @Environment (\.modelContext) private var modelContext
     @State private var openAddReminder: Bool = false
     @State private var title: String = ""
+    @State private var selectedReminder: Reminder?
+    @State private var showReminderDetailScreen: Bool = false
+    
+    private func isReminderSelected(_ reminder: Reminder) -> Bool {
+        selectedReminder?.id == reminder.id
+    }
     
     private var isFormValid: Bool {
         !title.isEmpty
@@ -24,9 +30,21 @@ struct AddNewReminderScreen: View {
             /// SHOWING REMINDERS
             List {
                 ForEach(list.reminders) { reminder in
-                    ReminderCellView(reminder: reminder)
+                    ReminderCellView(reminder: reminder, isSelected: isReminderSelected(reminder)) { event in
+                        switch event {
+                        case .onInfo:
+                            showReminderDetailScreen = true
+                        case .onCheckedChanged(let reminder, let isCompleted):
+                            print("ON CHECKED CHANGE")
+                        case .onSelect(let reminder):
+                            selectedReminder = reminder
+                        }
+                    }
                 }
             }
+            .sheet(isPresented: $showReminderDetailScreen, content: {
+                ReminderDetailScreen(reminder: selectedReminder!)
+            })
             HStack {
                 Image(systemName: "plus.circle.fill")
                 Button("New reminder") {
