@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct AddNewReminderScreen: View {
+    
+   
    
      var list: Mylist
 //    @Environment (\.modelContext) private var modelContext
@@ -15,6 +17,7 @@ struct AddNewReminderScreen: View {
     @State private var title: String = ""
     @State private var selectedReminder: Reminder?
     @State private var showReminderDetailScreen: Bool = false
+    
     
     private func isReminderSelected(_ reminder: Reminder) -> Bool {
         selectedReminder?.id == reminder.id
@@ -41,7 +44,17 @@ struct AddNewReminderScreen: View {
                         }
                     }
                 }
+                .onDelete(perform: { indexSet in
+                    indexSet.forEach { index in
+                        let reminder = list.reminders[index]
+                        withAnimation {
+                            reminder.modelContext?.delete(reminder)
+                        }
+                    }
+                })
+                
             }
+            
             .sheet(isPresented: $showReminderDetailScreen, content: {
                 ReminderDetailScreen(reminder: selectedReminder!)
             })
