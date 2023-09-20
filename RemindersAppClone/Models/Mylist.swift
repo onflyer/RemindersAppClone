@@ -21,3 +21,5 @@ final class Mylist {
     @Relationship(deleteRule: .cascade)
     var reminders: [Reminder] = []
 }
+
+

@@ -21,6 +21,10 @@
 		3B37F7602AB9A38700763D65 /* CustomOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F75F2AB9A38700763D65 /* CustomOperator.swift */; };
 		3B37F7622AB9A71300763D65 /* SelectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F7612AB9A71300763D65 /* SelectListView.swift */; };
 		3B37F7642AB9B1C700763D65 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F7632AB9B1C700763D65 /* Delay.swift */; };
+		3B37F7672ABB2DAA00763D65 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F7662ABB2DAA00763D65 /* ReminderListView.swift */; };
+		3B37F7692ABB577900763D65 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F7682ABB577900763D65 /* ContentView1.swift */; };
+		3B37F76B2ABB593900763D65 /* AddListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F76A2ABB593900763D65 /* AddListButton.swift */; };
+		3B37F76D2ABB791100763D65 /* MyListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F76C2ABB791100763D65 /* MyListCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		3B37F75F2AB9A38700763D65 /* CustomOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperator.swift; sourceTree = "<group>"; };
 		3B37F7612AB9A71300763D65 /* SelectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectListView.swift; sourceTree = "<group>"; };
 		3B37F7632AB9B1C700763D65 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		3B37F7662ABB2DAA00763D65 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
+		3B37F7682ABB577900763D65 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
+		3B37F76A2ABB593900763D65 /* AddListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListButton.swift; sourceTree = "<group>"; };
+		3B37F76C2ABB791100763D65 /* MyListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,7 @@
 		3B37F7382AB3BA8100763D65 /* RemindersAppClone */ = {
 			isa = PBXGroup;
 			children = (
+				3B37F7702ABB84B500763D65 /* Previews */,
 				3B37F75E2AB9A37400763D65 /* Utilities */,
 				3B37F74A2AB3BAE300763D65 /* App */,
 				3B37F7572AB9A05400763D65 /* Extensions */,
@@ -105,6 +114,9 @@
 			children = (
 				3B37F7552AB99D2700763D65 /* ReminderCellView.swift */,
 				3B37F7612AB9A71300763D65 /* SelectListView.swift */,
+				3B37F7662ABB2DAA00763D65 /* ReminderListView.swift */,
+				3B37F76A2ABB593900763D65 /* AddListButton.swift */,
+				3B37F76C2ABB791100763D65 /* MyListCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,6 +128,7 @@
 				3B37F7512AB3DADC00763D65 /* AddNewListScreen.swift */,
 				3B37F7532AB4504200763D65 /* AddNewReminderScreen.swift */,
 				3B37F75C2AB9A1F400763D65 /* ReminderDetailScreen.swift */,
+				3B37F7682ABB577900763D65 /* ContentView1.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -143,6 +156,13 @@
 				3B37F7632AB9B1C700763D65 /* Delay.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3B37F7702ABB84B500763D65 /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Previews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,14 +236,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B37F73C2AB3BA8100763D65 /* ContentView.swift in Sources */,
+				3B37F76B2ABB593900763D65 /* AddListButton.swift in Sources */,
 				3B37F73A2AB3BA8100763D65 /* RemindersAppCloneApp.swift in Sources */,
 				3B37F7542AB4504200763D65 /* AddNewReminderScreen.swift in Sources */,
 				3B37F7592AB9A06400763D65 /* Date + Extensions.swift in Sources */,
 				3B37F7602AB9A38700763D65 /* CustomOperator.swift in Sources */,
 				3B37F7562AB99D2700763D65 /* ReminderCellView.swift in Sources */,
+				3B37F7692ABB577900763D65 /* ContentView1.swift in Sources */,
 				3B37F75D2AB9A1F400763D65 /* ReminderDetailScreen.swift in Sources */,
 				3B37F7622AB9A71300763D65 /* SelectListView.swift in Sources */,
 				3B37F7522AB3DADC00763D65 /* AddNewListScreen.swift in Sources */,
+				3B37F7672ABB2DAA00763D65 /* ReminderListView.swift in Sources */,
+				3B37F76D2ABB791100763D65 /* MyListCellView.swift in Sources */,
 				3B37F7642AB9B1C700763D65 /* Delay.swift in Sources */,
 				3B37F74E2AB3BB2600763D65 /* Mylist.swift in Sources */,
 				3B37F7502AB3BBD700763D65 /* Reminder.swift in Sources */,
