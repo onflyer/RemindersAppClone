@@ -36,5 +36,5 @@ struct SelectListView: View {
 }
 
 #Preview {
-    SelectListView(selectedList: .constant(.init(name: "Ss")))
+    SelectListView(selectedList: .constant(.init(name: "Ss", color: .black)))
 }

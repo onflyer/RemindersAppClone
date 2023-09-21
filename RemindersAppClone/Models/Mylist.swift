@@ -7,15 +7,18 @@
 
 import Foundation
 import SwiftData
+import UIKit
 
 @Model
 final class Mylist {
     
     var name: String
+    @Attribute(.transformable(by: UIColorTransofrmer.self)) var color: UIColor  //complex type are expensive
     
-    init(name: String) {
+    init(name: String, color: UIColor) {
         self.name = name
-//    
+        self.color = color
+
     }
     
     @Relationship(deleteRule: .cascade)

@@ -10,6 +10,9 @@ import SwiftData
 
 @main
 struct RemindersAppCloneApp: App {
+    init() {
+        ValueTransformer.setValueTransformer(UIColorTransofrmer(), forName: NSValueTransformerName("UIColorTransofrmer"))
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -92,7 +92,7 @@ struct AddNewReminderScreen: View {
 }
 
 #Preview {
-    AddNewReminderScreen(list: .init(name: "S"))
+    AddNewReminderScreen(list: .init(name: "S", color: .black))
 //        .modelContainer(for: [Mylist.self, Reminder.self], inMemory: true)
 
 }

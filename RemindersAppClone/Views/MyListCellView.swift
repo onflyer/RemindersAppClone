@@ -27,6 +27,6 @@ struct MyListCellView: View {
 }
 
 #Preview {
-    MyListCellView(myList: .init(name: "Preview") )
+    MyListCellView(myList: .init(name: "Preview", color: .black) )
         .modelContainer(for: [Mylist.self, Reminder.self], inMemory: true)
 }
