@@ -2,31 +2,31 @@
 //  MyListCellView.swift
 //  RemindersAppClone
 //
-//  Created by Aleksandar Milidrag on 9/20/23.
+//  Created by Aleksandar Milidrag on 9/21/23.
 //
 
 import SwiftUI
-import SwiftData
 
 struct MyListCellView: View {
-    
-    let myList: Mylist
+    let list: Mylist
     
     var body: some View {
         HStack {
             Image(systemName: "line.3.horizontal.circle.fill")
+                .foregroundStyle(Color(list.color))
+            Text(list.name)
                 .foregroundStyle(.black)
-            Text(myList.name)
             Spacer()
             Image(systemName: "chevron.right")
-                .foregroundColor(.gray)
+                .foregroundStyle(.gray)
                 .opacity(0.4)
-                .padding([.trailing], 10)
+                .padding([.trailing],10)
+            
         }
+        Divider()
     }
 }
 
 #Preview {
-    MyListCellView(myList: .init(name: "Preview", color: .black) )
-        .modelContainer(for: [Mylist.self, Reminder.self], inMemory: true)
+    MyListCellView(list: .init(name: "Preview", color: .blue))
 }

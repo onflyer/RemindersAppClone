@@ -19,6 +19,7 @@ struct AddListButton: View {
                 .font(.headline)
         })
         .padding()
+        .padding(.horizontal)
         
     }
 }

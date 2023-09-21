@@ -15,7 +15,7 @@ struct RemindersAppCloneApp: App {
     }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView1()
                 .modelContainer(for: [Mylist.self, Reminder.self], inMemory: false)
         }
     }

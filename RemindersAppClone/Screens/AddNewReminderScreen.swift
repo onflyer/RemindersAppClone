@@ -30,7 +30,7 @@ struct AddNewReminderScreen: View {
     
     var body: some View {
         VStack {
-            /// SHOWING REMINDERS
+           
             List {
                 ForEach(list.reminders) { reminder in
                     ReminderCellView(reminder: reminder, isSelected: isReminderSelected(reminder)) { event in
@@ -38,6 +38,7 @@ struct AddNewReminderScreen: View {
                         case .onInfo:
                             showReminderDetailScreen = true
                         case .onCheckedChanged(let reminder, let isCompleted):
+                            
                             print("ON CHECKED CHANGE")
                         case .onSelect(let reminder):
                             selectedReminder = reminder
