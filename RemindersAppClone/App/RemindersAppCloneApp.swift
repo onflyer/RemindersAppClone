@@ -7,12 +7,21 @@
 
 import SwiftUI
 import SwiftData
+import UserNotifications
 
 @main
 struct RemindersAppCloneApp: App {
     init() {
         ValueTransformer.setValueTransformer(UIColorTransofrmer(), forName: NSValueTransformerName("UIColorTransofrmer"))
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
+            if granted {
+                
+            } else {
+                
+            }
+        }
     }
+    
     var body: some Scene {
         WindowGroup {
             ContentView1()

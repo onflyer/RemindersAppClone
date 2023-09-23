@@ -75,6 +75,10 @@ struct ReminderDetailScreen: View {
                         if isFormValid {
                             do {
                                 try reminder.modelContext?.save()
+                                if reminder.reminderDate != nil || reminder.reminderTime != nil {
+                                    let userData = UserData(title: reminder.title, body: reminder.notes, date: reminder.reminderDate, time: reminder.reminderTime)
+                                    NotificationManager.scheduleNotification(userData: userData)
+                                }
                             } catch {
                                 print(error)
                             }

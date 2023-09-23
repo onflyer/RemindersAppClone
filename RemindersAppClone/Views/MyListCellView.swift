@@ -15,7 +15,6 @@ struct MyListCellView: View {
             Image(systemName: "line.3.horizontal.circle.fill")
                 .foregroundStyle(Color(list.color))
             Text(list.name)
-                .foregroundStyle(.black)
             Spacer()
             Image(systemName: "chevron.right")
                 .foregroundStyle(.gray)
