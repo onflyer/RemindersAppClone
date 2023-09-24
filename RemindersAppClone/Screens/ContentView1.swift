@@ -11,10 +11,9 @@ import SwiftData
 struct ContentView1: View {
     
     @Query private var lists: [Mylist]
-    @Query private var reminders: [Reminder]
+    @Query  private var reminders: [Reminder]
     
     @State private var search: String = ""
-    @Environment (\.isSearching) var isSearching
     @State private var isPresented: Bool = false
     
     private var reminderStatsBuilder = ReminderStatsBuilder()

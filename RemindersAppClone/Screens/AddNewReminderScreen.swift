@@ -7,10 +7,11 @@
 
 import SwiftUI
 
+
 struct AddNewReminderScreen: View {
     
    
-   
+    
      var list: Mylist
 //    @Environment (\.modelContext) private var modelContext
     @State private var openAddReminder: Bool = false
