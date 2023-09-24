@@ -17,7 +17,7 @@ enum ReminderCellEvents {
 struct ReminderCellView: View {
     
     var reminder: Reminder
-    let delay = Delay()
+    let delay = DelayTask()
     let isSelected: Bool
     
     @State private var checked: Bool = false
@@ -42,9 +42,10 @@ struct ReminderCellView: View {
                 .onTapGesture {
                     checked.toggle()
                     
-                    delay.cancel()
+                    delay.delayTask?.cancel()
                     
-                    delay.performWork {
+                    delay.delayTask = Task {
+                        try? await Task.sleep(nanoseconds: 2_000_000_000)
                         onEvent(.onCheckedChanged(reminder, checked))
 
                     }
