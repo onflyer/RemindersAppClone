@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 struct ReminderListView: View {
-    let reminders1: Reminder
+   
     @Query private var reminders: [Reminder]
     @State private var selectedReminder: Reminder?
     @State private var showReminderDetailScreen: Bool = false
@@ -26,6 +26,9 @@ struct ReminderListView: View {
                         case .onInfo:
                             showReminderDetailScreen = true
                         case .onCheckedChanged(let reminder, let isCompleted):
+                            
+                           
+                            
                             print("ON CHECKED CHANGE")
                         case .onSelect(let reminder):
                             selectedReminder = reminder
@@ -51,5 +54,5 @@ struct ReminderListView: View {
 }
 
 #Preview {
-    ReminderListView(reminders1: .init(title: "S"))
+    ReminderListView()
 }

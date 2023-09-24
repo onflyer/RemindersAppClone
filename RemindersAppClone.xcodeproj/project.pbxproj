@@ -32,6 +32,7 @@
 		3B37F7802ABF4DE000763D65 /* Color + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F77F2ABF4DE000763D65 /* Color + Extensions.swift */; };
 		3B37F7832ABF4F4000763D65 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F7822ABF4F4000763D65 /* NotificationManager.swift */; };
 		3B37F7852AC02E7100763D65 /* DelayTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F7842AC02E7100763D65 /* DelayTask.swift */; };
+		3B37F7872AC0535D00763D65 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F7862AC0535D00763D65 /* Delay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		3B37F77F2ABF4DE000763D65 /* Color + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extensions.swift"; sourceTree = "<group>"; };
 		3B37F7822ABF4F4000763D65 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		3B37F7842AC02E7100763D65 /* DelayTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayTask.swift; sourceTree = "<group>"; };
+		3B37F7862AC0535D00763D65 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				3B37F75F2AB9A38700763D65 /* CustomOperator.swift */,
 				3B37F7732ABC9FA700763D65 /* UIColorTransofrmer.swift */,
 				3B37F7842AC02E7100763D65 /* DelayTask.swift */,
+				3B37F7862AC0535D00763D65 /* Delay.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				3B37F7672ABB2DAA00763D65 /* ReminderListView.swift in Sources */,
 				3B37F7762ABCA2C200763D65 /* ColorPickerView.swift in Sources */,
 				3B37F74E2AB3BB2600763D65 /* Mylist.swift in Sources */,
+				3B37F7872AC0535D00763D65 /* Delay.swift in Sources */,
 				3B37F7502AB3BBD700763D65 /* Reminder.swift in Sources */,
 				3B37F7832ABF4F4000763D65 /* NotificationManager.swift in Sources */,
 			);

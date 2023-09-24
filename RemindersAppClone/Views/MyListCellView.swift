@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MyListCellView: View {
+    
     let list: Mylist
     
     var body: some View {

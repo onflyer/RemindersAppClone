@@ -37,9 +37,14 @@ struct AddNewReminderScreen: View {
                         switch event {
                         case .onInfo:
                             showReminderDetailScreen = true
-                        case .onCheckedChanged(let reminder, let isCompleted):
+                        case .onCheckedChanged(let reminder, _):
+                            reminder.isCompleted.toggle()
+                            do {
+                                try reminder.modelContext?.save()
+                            } catch {
+                                print(error)
+                            }
                             
-                            print("ON CHECKED CHANGE")
                         case .onSelect(let reminder):
                             selectedReminder = reminder
                         }
