@@ -1,4 +1,4 @@
-App is missing some features, needs some updates but core stuff is there 
+App is missing some features it is not finished, but core stuff is there 
 
 
 <img src="https://github.com/onflyer/RemindersAppClone/assets/114020060/b20236ba-e9c9-4719-9d94-54198a3f93b7" width="30%" height="30%">
