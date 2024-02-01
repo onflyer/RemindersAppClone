@@ -1,10 +1,9 @@
-App is missing some features it is not finished, but core stuff is there 
 
 
-<img src="https://github.com/onflyer/RemindersAppClone/assets/114020060/b20236ba-e9c9-4719-9d94-54198a3f93b7" width="30%" height="30%">
 
 
-<img src="https://github.com/onflyer/RemindersAppClone/assets/114020060/a98c393d-0511-4202-93de-9019234b9997" width="30%" height="30%">
-
-
-<img src="https://github.com/onflyer/RemindersAppClone/assets/114020060/487c05d4-d9f8-4835-a677-b6a36a59159d" width="30%" height="30%">
+<img src="https://github.com/onflyer/RemindersAppClone/assets/114020060/6f60c784-b968-4f95-a4d9-e84a829ede8e" width="30%" height="30%">
+<img src="https://github.com/onflyer/RemindersAppClone/assets/114020060/da80c410-7f98-49a0-9461-e17b60bf2626" width="30%" height="30%">
+<img src="https://github.com/onflyer/RemindersAppClone/assets/114020060/c3d2eff4-6260-408e-9b4d-4f0a07460356" width="30%" height="30%">
+<img src="https://github.com/onflyer/RemindersAppClone/assets/114020060/b8de1367-d44a-4adb-83d0-f947fdc22734" width="30%" height="30%">
+<img src="https://github.com/onflyer/RemindersAppClone/assets/114020060/07013333-6059-42f7-8138-6d3fa60e1fa0" width="30%" height="30%">
