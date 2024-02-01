@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3B37F73A2AB3BA8100763D65 /* RemindersAppCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F7392AB3BA8100763D65 /* RemindersAppCloneApp.swift */; };
-		3B37F73C2AB3BA8100763D65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F73B2AB3BA8100763D65 /* ContentView.swift */; };
 		3B37F73E2AB3BA8200763D65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B37F73D2AB3BA8200763D65 /* Assets.xcassets */; };
 		3B37F7412AB3BA8200763D65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B37F7402AB3BA8200763D65 /* Preview Assets.xcassets */; };
 		3B37F74E2AB3BB2600763D65 /* Mylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37F74D2AB3BB2600763D65 /* Mylist.swift */; };
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		3B37F7362AB3BA8100763D65 /* RemindersAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B37F7392AB3BA8100763D65 /* RemindersAppCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersAppCloneApp.swift; sourceTree = "<group>"; };
-		3B37F73B2AB3BA8100763D65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B37F73D2AB3BA8200763D65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B37F7402AB3BA8200763D65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B37F74D2AB3BB2600763D65 /* Mylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mylist.swift; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 		3B37F7492AB3BAD900763D65 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				3B37F73B2AB3BA8100763D65 /* ContentView.swift */,
 				3B37F7512AB3DADC00763D65 /* AddNewListScreen.swift */,
 				3B37F7532AB4504200763D65 /* AddNewReminderScreen.swift */,
 				3B37F75C2AB9A1F400763D65 /* ReminderDetailScreen.swift */,
@@ -270,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B37F73C2AB3BA8100763D65 /* ContentView.swift in Sources */,
 				3B37F76B2ABB593900763D65 /* AddListButton.swift in Sources */,
 				3B37F73A2AB3BA8100763D65 /* RemindersAppCloneApp.swift in Sources */,
 				3B37F77A2ABCE4CF00763D65 /* MyListCellView.swift in Sources */,
