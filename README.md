@@ -1,4 +1,4 @@
-
+Reminders app clone rewritten in SwiftData
 
 <img src="https://github.com/onflyer/RemindersAppClone/assets/114020060/07013333-6059-42f7-8138-6d3fa60e1fa0" width="30%" height="30%">
 <img src="https://github.com/onflyer/RemindersAppClone/assets/114020060/b8de1367-d44a-4adb-83d0-f947fdc22734" width="30%" height="30%">
