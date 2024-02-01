@@ -20,12 +20,7 @@ struct MyListDetailView: View {
         !title.isEmpty
     }
     
-    init(myList: Mylist) {
-        self.myList = myList
-        _reminderResults = Query(filter: #Predicate<Reminder> { $0.isCompleted  == false
-            
-        })
-    }
+   
     
     var body: some View {
         VStack {
